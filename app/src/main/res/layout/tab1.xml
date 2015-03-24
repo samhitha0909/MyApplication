@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_width="78dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/stark" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/lannister" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/martell" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/targaryen" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Houses"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        android:paddingLeft="150dp"
+        android:textColor="#FFF"
+
+        />
+
+
+</LinearLayout>

@@ -27,6 +27,9 @@ public class ma_pager_adapter extends FragmentPagerAdapter {
             case 2:
                 tab3 t3 = new tab3();
                 return t3;
+            case 3:
+                tab4 t4=new tab4();
+                return t4;
 
         }
         return null;

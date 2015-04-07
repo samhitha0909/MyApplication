@@ -4,17 +4,15 @@
     android:background="@drawable/logo"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Books"
-        android:id="@+id/textView"
-        android:textAlignment="center"
-        android:layout_gravity="center_vertical"
-        android:textIsSelectable="false"
-        android:textSize="30dp"
-        android:paddingLeft="150dp"
-        android:textColor="#FFF"
+    <ListView
 
-        />
+        android:id="@id/android:list"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:textColor="#FFF">
+
+
+    </ListView>
+
 </LinearLayout>

@@ -27,8 +27,8 @@ public class MainActivity extends FragmentActivity {
         pager.setAdapter(mapager);
         tab_strp=(PagerTabStrip)findViewById(R.id.tab_strip);
         tab_strp.setTextColor(Color.YELLOW);
-        //   tab_strp.setTextSize(14,14);
-        // tab_strp.setTabIndicatorColor(Color.WHITE);
+           //tab_strp.setTextSize(14,14);
+         tab_strp.setTabIndicatorColor(Color.WHITE);
     }
 
 
